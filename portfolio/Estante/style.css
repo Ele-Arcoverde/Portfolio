@@ -1,0 +1,86 @@
+        html {scroll-behavior: smooth;}  /*suavização do scroll*/
+            
+        
+        body {/* Corpo de aplicação e ordenação: 1- background */
+        background-color: white;
+        /* 2-Texto */
+        color: #365336; text-align: justify;
+        /* 3- Alinhamento e Tamanho */
+        /* 1 rem= 16px, tela gde= font-size:16px; média:15px e peq:14px */
+        width: 95%; 
+        margin: auto;}
+
+        section {
+            /* Espaçamento dentro da seção */
+            padding-left: 256px;
+            padding-right: 256px;
+            padding-bottom: 64px;
+            padding-top: 64px;
+            /* para inserir de uma só vez usamos tag padding e inserimos sem virgulas de separação, 
+            ex: padding: 64px 256px 256px 64px ou ainda: padding: 64px 256px por terem as mesmas medidas*/
+        }
+        /* Tabela */
+        table{ 
+            /* largura */
+            width: 100%; }
+        td{background-color: #A9D9D0;}
+        td,th {
+            /* borda no formato shorthand */
+            border:#000 solid 1px; 
+            border-radius: 4px;
+            /* Alinhamento do texto */
+            text-align: center;}
+        tr{background-color: #038C7F;}
+        
+        /* Título, Texto e Parágrafo  */   
+      p{text-align: justify; text-indent: 50px;}
+      h1{background-color: #027373; text-align: center;}
+      h2{color: coral; text-align: center;}
+      h3{ color: black; text-align: center;}
+            
+      /* Links */
+      a:link {color: #1057db;/* Link Normal */}
+      
+      a:visited {color: #5eb2e2;/* Link Visitado */}
+
+      a:hover {color: #8230c5;/*Mouse sobre o Link */}
+
+      a:active {color: #0d0d0d;/* Link Selecionado */}
+
+      
+      /*Imagem */
+      img {width: 300px; display: block; 
+      margin: auto; border-radius: 50px;}
+
+
+      /* Classes e IDs */               
+      .bookTitle{background-color: #A9D9D0; color: #027373;
+      text-align: center;}
+      #sectionEP,#sectionPF,#sectionPA {background-color: #A9D9D0;}
+
+      #header {
+       background-color: #038C7F; color: #f2e7dc;
+        padding: 20px; margin-bottom: 0px}
+      
+       #yourLibrary {text-align: center; text-indent: 0px;
+       }
+
+       #sumary {
+       background-color: #038C7F; color: #F2E7DC;
+       padding: 20px; margin-bottom: 50px;
+       border-radius: 0 0 50px 50px; display: flex;
+       flex-direction: column;  align-items: center;
+       }
+
+       /* rodapé */
+       footer {background-color: #027373;
+       width: 97.8%;text-align: center; padding: 30px;
+    }
+
+
+
+
+
+
+      
+   

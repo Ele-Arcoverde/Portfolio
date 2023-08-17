@@ -16,7 +16,7 @@
     top: 50%;
     left: 50% ;
     transform: translate(-50%, -50% );
-  color: #f6c976;
+  color: #f3cf8c;
     }
 
 .aboutImage {width: 100%;border-radius: 80%; }
@@ -39,12 +39,12 @@
 .servicesText:hover {border: 1px solid #f5af65;}
 
 /* estilização do cabeçalho */
-.navbar {background-color:#15057b;
+.navbar {background-color:#19088d;
 }
-.navbar a {color:#f6c976 ; padding: 0.5rem; font-style: italic; font-size: 21px;}
+.navbar a {color:#f3d295 ; padding: 0.5rem; font-style: italic; font-size: 21px;}
 
 .navbar a:hover {
-  background-color: #f1800f;
+  background-color:#f3e0bb;
   color: #1c44e5;
   border-radius: 4px;
 }
@@ -52,8 +52,8 @@
 /* Aula 3: Icones seção contato */
 .contactIcon {
   font-size: 2.5rem;
-  color: #0672f5fc; }
-.contactIcon:hover{color: #f1800f;}
+  color: #095abe; }
+.contactIcon:hover{color: #f6c976;}
 
 
 /* Rodapé */
@@ -64,7 +64,7 @@ footer {
   color: #ffffff;
 }
 .footerIcon:hover {
-  color: #f1800f;
+  color: #f6c976;
 }
 .footerDev {
   background-color: #19088d; color: #f6c976; font-size: 18px;}
